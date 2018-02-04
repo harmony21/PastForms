@@ -391,7 +391,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0 60px;
+  padding: 0 160px;
   -ms-flex-pack: distribute;
   justify-content: space-around;
   -webkit-box-align: center;
@@ -414,9 +414,8 @@
 .payinfo {
   font-size: 11px;
   text-transform: none;
-  width: 35%;
-  line-height: 1.2;
-  text-align: justify; }
+  width: 60%;
+  line-height: 1.2; }
   @media screen and (max-width: 1024px) {
     .payinfo {
       width: 60%; } }
@@ -711,7 +710,7 @@
 
 .line {
   margin: 0;
-  border: 7px solid #8C0606; }
+  border: 7px solid #314d63; }
 
 .benefit {
   background-color: white;
@@ -838,6 +837,16 @@
   text-align: right;
   width: 48%; }
 
+.information__item--cost {
+  text-transform: uppercase;
+  color: #314d63;
+  font-family: Raleway-Bold;
+  font-size: 34px;
+  margin-top: 20px; }
+  @media screen and (max-width: 1024px) {
+    .information__item--cost {
+      font-size: 26px; } }
+
 #mlb2-7600178,
 #mlb2-7600178 *,
 #mlb2-7600178 a:hover,
@@ -923,6 +932,10 @@
   color: #000000 !important;
   font-family: Raleway-Regular;
   font-size: 14px !important; }
+  @media screen and (max-width: 480px) {
+    #mlb2-7600178 .subscribe-form .form-section p,
+    #mlb2-7600178 .subscribe-form .form-section li {
+      text-align: center; } }
 
 #mlb2-7600178 .subscribe-form .form-section a {
   font-size: 14px !important; }
@@ -1032,18 +1045,18 @@
 
 @media screen and (max-width: 480px) {
   .ml-vertical-align-center {
-    margin-bottom: 20px; } }
+    margin-bottom: 20px;
+    margin-right: 0; } }
 
 @media screen and (max-width: 1024px) {
-  .ml-vertical-align-center.about {
-    margin-right: 0;
+  .ml-vertical-align-center.adv {
     width: 300px !important;
     margin-right: 20px; } }
 
 @media screen and (max-width: 480px) {
-  .ml-vertical-align-center.about {
+  .ml-vertical-align-center.adv {
     margin-right: 0;
-    width: 340px !important;
+    width: 320px !important;
     margin-bottom: 0;
     margin-top: 20px; } }
 

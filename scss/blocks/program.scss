@@ -57,7 +57,7 @@
     background-color: #314d63;
     color: white;
     display: flex;
-    padding: 0 60px;
+    padding: 0 160px;
     justify-content: space-around;
     align-items: center;
     @include tablets {
@@ -77,9 +77,9 @@
 .payinfo {
     font-size: 11px;
     text-transform: none;
-    width: 35%;
+    width: 60%;
     line-height: 1.2;
-    text-align: justify;
+    // text-align: justify;
     @include tablets {
         width: 60%;
     }
